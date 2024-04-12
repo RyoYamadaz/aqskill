@@ -1,0 +1,144 @@
+body{
+    background:#b1b1b1 ;
+    color: black;
+    font-family: "IBM Plex Sans", cursive;
+  }
+.ad{
+    width: 100%;
+    background: grey;
+    color: white;
+    text-align: center;
+  }
+.Header{
+    width: 100%;
+    height: 40px ;
+    background: white;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+.Navbtn{
+    float: left;   
+    font-size:30px;
+    margin-left: 5%;
+    border-radius: 7px;
+  }
+.Navbtn:hover{
+    border: 2px solid black;
+    }
+.Login{
+    float:right;
+    margin-right: 5%;
+  }
+.Login button{
+    background: darkorange;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+.Login button:hover{
+    background: orange;  
+  }
+.Login button:focus{
+    background: red;  
+  }
+.material-icons{
+    vertical-align: text-bottom;
+}
+    
+.scont{
+    background: url(A4.jpeg);
+    background-size: cover;
+    min-height: 100px;
+    position: relative;
+    color: white;
+    padding: 20px;
+    z-index: 0;
+  }
+.scont h1{
+    margin-bottom: -30px;
+    font-family: "sofia";
+    font-size: 60px;
+    }
+.csearch{
+    width: 80%;  
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    color: black;
+    height: 120px;
+  }
+.sicon{
+    background: orange;
+    padding: 8px;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+  }
+.sinput{
+    border:none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 37px;
+    width: 70%;
+    padding-left: 15px;
+  }   
+.searchc{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    background: orange;
+    color: black;
+    border: none;
+    }
+    
+.coursebar{
+    
+}
+.coursestitle{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-weight: bold;
+    margin:20px;
+    }   
+.coursestitle a{
+    color:grey;
+    }
+#new{
+    color: red;
+}
+.courses{
+    padding: 20px 10px;
+    background: white;
+    border-radius: 3px;
+    width: 50%;
+    height:auto;
+    }
+.img{
+    height: auto;
+    width; 100%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.coursestext{
+    text-align: left;
+    padding: 0px 20px;
+    font-weight: lighter;
+}
+.courses h4{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
